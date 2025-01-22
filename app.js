@@ -35,7 +35,7 @@ console.log(`Natija: ${S};`);
 
 let N = +prompt("n soniga qiymat bering:");
 let S_ = 0;
-for (i=1; i <= 5; i++) {
+for (i=1; N != 0; i++) {
     S_+= N ** i;
     N--;
 }
